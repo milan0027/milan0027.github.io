@@ -213,7 +213,7 @@ nav {
 }
 
 .project-item p {
-  height: 7rem;
+  min-height: 7rem;
 }
 .project-item h2 {
   margin-bottom: 2rem;
@@ -477,7 +477,12 @@ nav {
   }
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 420px) {
+
+	.profile-image{
+		height: 250px;
+		width: 250px;
+	}
 	.error-page h1{
 		font-size: 6rem;
 		letter-spacing: 1rem;
