@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.34daeedb.css",
+    "main.css": "/static/css/main.a570dc8c.css",
     "main.js": "/static/js/main.60a1f8b2.js",
     "static/media/IMG_20230719_052955.jpg": "/static/media/IMG_20230719_052955.a59a0ebb8c458071a3ca.jpg",
     "static/media/mongoDB_logo.png": "/static/media/mongoDB_logo.6170bacefd8a1f69ca74.png",
@@ -24,11 +24,11 @@
     "static/media/mysql_logo.png": "/static/media/mysql_logo.a04abbf76b39676bc4d9.png",
     "static/media/redux_logo.png": "/static/media/redux_logo.6d131244878aa86f4dc9.png",
     "index.html": "/index.html",
-    "main.34daeedb.css.map": "/static/css/main.34daeedb.css.map",
+    "main.a570dc8c.css.map": "/static/css/main.a570dc8c.css.map",
     "main.60a1f8b2.js.map": "/static/js/main.60a1f8b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.34daeedb.css",
+    "static/css/main.a570dc8c.css",
     "static/js/main.60a1f8b2.js"
   ]
 }
