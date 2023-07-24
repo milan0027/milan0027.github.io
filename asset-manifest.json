@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34daeedb.css",
+    "main.js": "/static/js/main.60a1f8b2.js",
+    "static/media/IMG_20230719_052955.jpg": "/static/media/IMG_20230719_052955.a59a0ebb8c458071a3ca.jpg",
+    "static/media/mongoDB_logo.png": "/static/media/mongoDB_logo.6170bacefd8a1f69ca74.png",
+    "static/media/jquery_logo.png": "/static/media/jquery_logo.6bedb2d755f28eb0a2cb.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/bootstrap_logo.png": "/static/media/bootstrap_logo.cb1aa7ebab86974f5bb0.png",
+    "static/media/firebase_logo.png": "/static/media/firebase_logo.5aa7cf22cd45ec6bbec2.png",
+    "static/media/react_logo.png": "/static/media/react_logo.81ed438b18e24116794d.png",
+    "static/media/Learning-cuate.svg": "/static/media/Learning-cuate.2b077bc537b620fe91ccaefb21281b4f.svg",
+    "static/media/postman_logo.png": "/static/media/postman_logo.6d8ddd09e6c15ca8dbab.png",
+    "static/media/nodejs_logo.png": "/static/media/nodejs_logo.fc3bd1ec69d7a50e685a.png",
+    "static/media/c++_logo.png": "/static/media/c++_logo.64f637357bce0ccc8384.png",
+    "static/media/css_logo.png": "/static/media/css_logo.bf50bd30bc0095476ab2.png",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/java_logo.png": "/static/media/java_logo.ee169ff4d4b050233224.png",
+    "static/media/c_logo.png": "/static/media/c_logo.c0da8156a8d17281c29e.png",
+    "static/media/Contact us-bro.svg": "/static/media/Contact us-bro.6ac0f09bc2cf6c23c2dcd5e515e72788.svg",
+    "static/media/mariadb_logo.png": "/static/media/mariadb_logo.1d7a68aa23f6e811cb95.png",
+    "static/media/js_logo.png": "/static/media/js_logo.6a10771db13c199fcef9.png",
+    "static/media/express_logo.png": "/static/media/express_logo.39a0f4c3d981885c64f8.png",
+    "static/media/mysql_logo.png": "/static/media/mysql_logo.a04abbf76b39676bc4d9.png",
+    "static/media/redux_logo.png": "/static/media/redux_logo.6d131244878aa86f4dc9.png",
+    "index.html": "/index.html",
+    "main.34daeedb.css.map": "/static/css/main.34daeedb.css.map",
+    "main.60a1f8b2.js.map": "/static/js/main.60a1f8b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34daeedb.css",
+    "static/js/main.60a1f8b2.js"
+  ]
+}
