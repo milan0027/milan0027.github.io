@@ -3,6 +3,7 @@ import js_logo from "../assets/images/js_logo.png";
 import c_logo from "../assets/images/c_logo.png";
 import cplusplus_logo from "../assets/images/c++_logo.png";
 import java_logo from "../assets/images/java_logo.png";
+import python_logo from "../assets/images/python_logo.png"
 import mysql from "../assets/images/mysql_logo.png";
 import firebase from "../assets/images/firebase_logo.png";
 import mariadb from "../assets/images/mariadb_logo.png";
@@ -13,10 +14,12 @@ import react_logo from "../assets/images/react_logo.png";
 import redux_logo from "../assets/images/redux_logo.png";
 import nodejs_logo from "../assets/images/nodejs_logo.png";
 import express_logo from "../assets/images/express_logo.png";
+import flask_logo from "../assets/images/flask_logo.png";
 import jquery_logo from "../assets/images/jquery_logo.png";
 import bootstrap_logo from "../assets/images/bootstrap_logo.png";
 import git_logo from "../assets/images/git_logo.png";
 import postman_logo from "../assets/images/postman_logo.png";
+import aws_logo from "../assets/images/aws_logo.png"
 import { Fade } from "react-reveal";
 const Skills = () => {
   return (
@@ -30,7 +33,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={c_logo} alt="js"></img>
+                    <img src={c_logo} alt="c"></img>
                   </div>
                 </div>
                 <div className="skill-text">C</div>
@@ -39,7 +42,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={cplusplus_logo} alt="js"></img>
+                    <img src={cplusplus_logo} alt="c++"></img>
                   </div>
                 </div>
                 <div className="skill-text">C++</div>
@@ -55,10 +58,18 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={java_logo} alt="js"></img>
+                    <img src={java_logo} alt="java"></img>
                   </div>
                 </div>
                 <div className="skill-text">Java</div>
+              </div>
+              <div className="skill-item">
+                <div className="skill-img-plane">
+                  <div className="skill-img">
+                    <img src={python_logo} alt="python"></img>
+                  </div>
+                </div>
+                <div className="skill-text">Python</div>
               </div>
             </div>
           </div>
@@ -69,7 +80,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={monogdb} alt="js"></img>
+                    <img src={monogdb} alt="mongo"></img>
                   </div>
                 </div>
                 <div className="skill-text">MongoDB</div>
@@ -77,7 +88,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={mysql} alt="js"></img>
+                    <img src={mysql} alt="sql"></img>
                   </div>
                 </div>
                 <div className="skill-text">MySQL</div>
@@ -85,7 +96,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={mariadb} alt="js"></img>
+                    <img src={mariadb} alt="maria"></img>
                   </div>
                 </div>
                 <div className="skill-text">MariaDB</div>
@@ -93,7 +104,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={firebase} alt="js"></img>
+                    <img src={firebase} alt="fire"></img>
                   </div>
                 </div>
                 <div className="skill-text">Firebase</div>
@@ -107,7 +118,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={html_logo} alt="js"></img>
+                    <img src={html_logo} alt="html"></img>
                   </div>
                 </div>
                 <div className="skill-text">HTML</div>
@@ -115,7 +126,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={css_logo} alt="js"></img>
+                    <img src={css_logo} alt="css"></img>
                   </div>
                 </div>
                 <div className="skill-text">CSS</div>
@@ -123,7 +134,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={react_logo} alt="js"></img>
+                    <img src={react_logo} alt="react"></img>
                   </div>
                 </div>
                 <div className="skill-text">React</div>
@@ -131,7 +142,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={redux_logo} alt="js"></img>
+                    <img src={redux_logo} alt="redux"></img>
                   </div>
                 </div>
                 <div className="skill-text">Redux</div>
@@ -139,7 +150,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={nodejs_logo} alt="js"></img>
+                    <img src={nodejs_logo} alt="node"></img>
                   </div>
                 </div>
                 <div className="skill-text">Node JS</div>
@@ -147,7 +158,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={express_logo} alt="js"></img>
+                    <img src={express_logo} alt="exprs"></img>
                   </div>
                 </div>
                 <div className="skill-text">Express</div>
@@ -155,7 +166,15 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={jquery_logo} alt="js"></img>
+                    <img src={flask_logo} alt="flask"></img>
+                  </div>
+                </div>
+                <div className="skill-text">Flask</div>
+              </div>
+              <div className="skill-item">
+                <div className="skill-img-plane">
+                  <div className="skill-img">
+                    <img src={jquery_logo} alt="jq"></img>
                   </div>
                 </div>
                 <div className="skill-text">jQuery</div>
@@ -163,7 +182,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={bootstrap_logo} alt="js"></img>
+                    <img src={bootstrap_logo} alt="boot"></img>
                   </div>
                 </div>
                 <div className="skill-text">Bootstrap</div>
@@ -176,7 +195,7 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={git_logo} alt="js"></img>
+                    <img src={git_logo} alt="git"></img>
                   </div>
                 </div>
                 <div className="skill-text">Git</div>
@@ -184,10 +203,18 @@ const Skills = () => {
               <div className="skill-item">
                 <div className="skill-img-plane">
                   <div className="skill-img">
-                    <img src={postman_logo} alt="js"></img>
+                    <img src={postman_logo} alt="post"></img>
                   </div>
                 </div>
                 <div className="skill-text">Postman</div>
+              </div>
+              <div className="skill-item">
+                <div className="skill-img-plane">
+                  <div className="skill-img">
+                    <img src={aws_logo} alt="aws"></img>
+                  </div>
+                </div>
+                <div className="skill-text">AWS</div>
               </div>
             </div>
           </div>

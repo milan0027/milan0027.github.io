@@ -9,7 +9,7 @@ const Projects = () => {
     <>
       <div className="div-item div-item-left" id="projects">
         <h1 className="item-header-text">Projects</h1>
-        <Fade bottom cascade>
+        <Fade top>
           <Grid className="projects" container spacing={1}>
             {projects.map((project, index) => (
               <Grid item xs={12} md={6} lg={4} key={project.name}>

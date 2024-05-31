@@ -12,10 +12,10 @@ const Education = () => {
             <Grid item sm={12} md={6}>
               <div className="education-items">
                 <div className="education-item">
-                  <h2>Indian Institute of Technology(ISM) Dhanbad</h2>
+                  <h2>Indian Institute of Technology (ISM) Dhanbad</h2>
                   <h3>B.Tech in Computer Science & Engineering</h3>
                   <h3>2020 - 2024</h3>
-                  <p>CGPA - 9.10</p>
+                  <p>CGPA - 8.77</p>
                 </div>
                 <div className="education-item">
                   <h2>Sidhhartha Public School, New Delhi</h2>

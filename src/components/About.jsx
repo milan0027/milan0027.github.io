@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 import React from "react";
-import profileImage from "../assets/images/IMG_20230719_052955.jpg";
+import profileImage from "../assets/images/IMG_FACE.jpeg";
 import ProfileIcons from "./ProfileIcons";
 import { Fade } from "react-reveal";
 const About = () => {
@@ -15,15 +15,15 @@ const About = () => {
                 className="item-text"
                 style={{ marginTop: "2rem", lineHeight: "40px" }}
               >
-                A final year Computer Science undergraduate student at IIT
-                Dhanbad. I'm Passionate about Competitve Programming and Full
+                A Software Development Engineer. I'm a Computer Science undergraduate from IIT
+                Dhanbad. I'm Passionate about Competitive Programming and Full
                 Stack Web Development, having experience of building Web
                 applications with JavaScript / Reactjs / Nodejs and some other
                 cool libraries and frameworks.
               </p>
               <ProfileIcons />
               <a
-                href="https://docs.google.com/document/d/1zZRerbj2kLAhmdySisVTLfS0ZjTvtOMU8kSnhKRs94E/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1Y6I9_I6N9kYl7RVh-WDdmUb9X7oTSIAw/view?usp=sharing"
                 target="__blank"
               >
                 <button className="btn">SEE MY RESUME</button>

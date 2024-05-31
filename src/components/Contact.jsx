@@ -21,7 +21,7 @@ const Contact = () => {
               <div>
                 <p>
                   <FaLocationDot />
-                  <span>Dhanbad, Jharkhand</span>
+                  <span>Hyderabad, Telangana</span>
                 </p>
                 <p>
                   <FaPhone />

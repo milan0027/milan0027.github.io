@@ -12,6 +12,30 @@ const Experience = () => {
     <div className="div-item div-item-left" id="experience">
       <h1>Experience</h1>
       <VerticalTimeline className="experience-items">
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work experience-item"
+          contentStyle={{
+            background: `${color}`,
+            color: "#fff",
+            borderRadius: "1rem",
+          }}
+          contentArrowStyle={{ borderRight: `10px solid  #fff` }}
+          date="June 2024 - Present"
+          iconStyle={{ background: `${color}`, color: "#fff" }}
+        >
+          <h3
+            className="vertical-timeline-element-title"
+            style={{ fontSize: "1.2rem" }}
+          >
+            Member, Tech - D. E. Shaw India
+          </h3>
+          <h5 style={{ marginTop: "4px", fontSize: "0.9rem" }}>
+            Hyderabad, Telangana
+          </h5>
+          <p style={{ lineHeight: "1.2rem" }}>
+            Just started working here.
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work experience-item"
           contentStyle={{
@@ -45,7 +69,7 @@ const Experience = () => {
             borderRadius: "1rem",
           }}
           contentArrowStyle={{ borderRight: `10px solid  #fff` }}
-          date="Oct 2022 - Present"
+          date="Oct 2022 - May 2024"
           iconStyle={{ background: `${color}`, color: "#fff" }}
         >
           <h3
@@ -70,7 +94,7 @@ const Experience = () => {
             borderRadius: "1rem",
           }}
           contentArrowStyle={{ borderRight: `10px solid  #fff` }}
-          date="May 2021 - Present"
+          date="May 2021 - May 2024"
           iconStyle={{ background: `${color}`, color: "#fff" }}
         >
           <h3
